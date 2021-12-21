@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Primary colors */
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  /* Neutral colors */
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  background-color: var(--pale-blue);
+  font-family: "Red Hat Display";
+  text-align: center;
+}
+.card_container {
+  background-color:var(--very-pale-blue);
+  margin: 32px auto;
+  border-radius: 7px;
+  width: 50%;
+}
+
+h1 {
+  font-size: 20px;
+  color: var(--dark-blue);
+  margin-bottom: 12px;
+}
+
+p {
+  color: var(--desaturated-blue);
+  font-size: 12px;
+  line-height: 1.5;
+}
+.card_container .img_1 {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 20px 20px 0 0;
+}
+
+.sub_description {
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  align-content: center;
+}
+
+.img_plan {
+  display: flex;
+  flex: 1
+}
+
+.music_icon {
+  padding-right: 20px;
+}
+
+.subscription_plan {
+  display: flex;
+  justify-content: space-between;
+  background-color:hsl(223, 26%, 95%);
+  width: 90%;
+  margin: 18px auto;
+  border-radius: 10px;
+  padding: 20px 15px 20px 15px;
+}
+
+.btn_change {
+  font-family: "Red Hat Display";
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 8px;
+  background-color: transparent;
+  color: var(--bright-blue);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.pay_cancel {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 18px auto;
+  border-radius: 6px;
+}
+
+.btn_payment {
+  font-family: "Red Hat Display";
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  padding: 11px;
+  border-radius: 8px;
+  background-color: var(--bright-blue);
+  color: white;
+}
+
+.btn_payment:hover {
+  opacity: 0.7;
+}
+
+.btn_cancel {
+  font-family: "Red Hat Display";
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  padding: 11px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.btn_cancel:hover {
+  opacity: 0.7;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
